@@ -6,6 +6,8 @@ A simple game that challenges the user to guess a number between 1 and 20. Writt
 
 ## Demo
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a0cb2e8c-a887-4d80-8f19-f88cd257e5a7/deploy-status)](https://app.netlify.com/sites/guessmynumber-09/deploys)
+
 You can check the demo [here](https://guessmynumber-09.netlify.app/).
 
 ## How it works
