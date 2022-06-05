@@ -2,6 +2,12 @@
 
 A simple game that challenges the user to guess a number between 1 and 20. Written in HTML, CSS, and Vanilla JavaScript.
 
+![screenshot](screenshot.png)
+
+## Demo
+
+You can check the demo [here](https://guessmynumber-09.netlify.app/).
+
 ## How it works
 
 - A random number is generated between 1 and 20.
