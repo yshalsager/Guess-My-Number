@@ -62,8 +62,8 @@ function runGame() {
   }
 }
 
-// set onclick listerner to run the game
-buttonEl.addEventListener('click', () => runGame());
+// set onclick listener to run the game
+buttonEl.addEventListener('click', runGame);
 
 // Run the game when enter key is pressed in the input
 inputEl.addEventListener('keypress', event => {
