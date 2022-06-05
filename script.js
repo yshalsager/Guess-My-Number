@@ -17,7 +17,7 @@ let score = defaultScore;
 let highScore = 0;
 // Generate a secret number between 1 and 20
 let secretNumber = getSecretNumber();
-console.log(secretNumber); // temp
+// console.log(secretNumber); // temp
 
 // game logic
 function runGame() {
@@ -65,12 +65,20 @@ function runGame() {
 // set onclick listerner to run the game
 buttonEl.addEventListener('click', () => runGame());
 
+// Run the game when enter key is pressed in the input
+inputEl.addEventListener('keypress', event => {
+  if (event.key === 'Enter') runGame();
+});
+
 // set onclick listener to reset the game
 resetButtonEl.addEventListener('click', () => {
-  document.body.style, inputEl.value, (numberEl.style = ''), '', '';
-  scoreEl.textContent, (score = defaultScore), defaultScore;
+  document.body.style = '';
+  inputEl.value = '';
+  numberEl.style = '';
+  score = defaultScore;
+  scoreEl.textContent, defaultScore;
   messageEl.textContent = 'Start guessing...';
   secretNumber = getSecretNumber();
   numberEl.textContent = '?';
-  console.log(secretNumber); // temp
+  // console.log(secretNumber); // temp
 });
